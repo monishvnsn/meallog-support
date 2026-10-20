@@ -23,29 +23,22 @@
     @media (prefers-color-scheme: dark) { body { background: #000; color: #f5f5f7; } section { background: #1c1c1e; box-shadow: none; } .lede, footer { color: #98989d; } a { color: #2997ff; } }
   </style>
 </head>
-<body>
-  <main>
-    <header>
-      <span class="mark" aria-hidden="true">⌁</span>
-      <h1>MealLog Support</h1>
-      <p class="lede">A little help for your food journal.</p>
-    </header>
-    <section>
-      <h2>Contact</h2>
-      <p>For help with MealLog, email <a href="mailto:appsupport@duck.com">appsupport@duck.com</a>. Please include the app version, device and iOS version, what you tapped, and whether the issue repeats.</p>
-      <p>Please avoid sending meal records or photos unless you choose to share them. For a nutrition mismatch, include the public food reference or product link.</p>
-    </section>
-    <section>
-      <h2>Common questions</h2>
-      <ul>
-        <li><strong>Why is a meal unrated?</strong> Some reference foods have incomplete or conflicting data. Search for a closer match; unknown values are not treated as zero.</li>
-        <li><strong>What do nutrition values mean?</strong> They describe a matched reference per 100 g or 100 mL, not the amount eaten.</li>
-        <li><strong>Does barcode lookup always work?</strong> New lookups need internet access, and some products are not in the public catalog. You can still save a text entry.</li>
-        <li><strong>Where is my journal stored?</strong> Guest meals stay on your device. In a build with encrypted sync configured, signed-in meal records are encrypted on your device and stored by Supabase; the key is recovered through iCloud Keychain. Photos, drafts and preferences stay on each device. Sync may not be enabled in every build.</li>
-        <li><strong>Can I export or delete my journal?</strong> Use Settings in the app. Export before deletion if you need a copy. Account deletion is being prepared for a future release.</li>
-      </ul>
-    </section>
-    <footer><a href="privacy.html">Privacy policy</a></footer>
-  </main>
-</body>
-</html>
+<body><main><header><h1>MealLog Support</h1><time datetime="2026-10-20">Updated October 20, 2026</time></header><article><p>Contact: <a href="mailto:appsupport@duck.com">appsupport@duck.com</a>.</p>
+<p>Log a food name, scan a packaged-food barcode or reuse a recent meal. Choose breakfast, lunch, dinner, snack or beverage, and its date/time. There is no portion or calorie-entry requirement.</p>
+<h2>Nutrition</h2>
+<p>Values are reference estimates per 100 g or 100 mL, not the amount you consumed or medical advice. Confirm the matched food/product and preparation. Unknown or conflicting data stays unrated. Use Find nutrition to select a closer reference. Food-quality labels are MealLog&#x27;s disclosed heuristic, not a medical assessment or Yuka/Nutri-Score.</p>
+<h2>Your account and saved meals</h2>
+<p>Guest journals stay on the device. Sign in with Apple to save an encrypted account copy automatically. Existing guest meals move into your account. Sign in with the same Apple account on a new device and keep iCloud Keychain available for key recovery. Photos and unfinished drafts stay on the original device. Account privacy/recovery controls are under the three-dot menu → Account. Save a separate export or recovery key for important records. Lost keys cannot be recovered by support.</p>
+<p>If your account needs attention, open Account and reconnect with Apple. Changes retry on connection/foreground and when iOS permits background refresh. There is no promise of immediate closed-app sync. If the free hosted service is unavailable, your local journal remains usable. Never send support passwords, authorization codes, recovery keys or unredacted private journal exports.</p>
+<h2>Reminders and widgets</h2>
+<p>Three-dot menu → Notifications: choose meal times, before/after prompts, repeat days and a MealLog chime, system sound or silence. Allow iOS notifications. Focus and Scheduled Summary may delay delivery. Turn reminders off to cancel them.</p>
+<p>Hold the Home Screen → Edit → Add Widget → MealLog. Quick log opens a meal form. Today&#x27;s journal shows optional daily counts; enable these in MealLog → Widgets. Counts are off by default and may be visible to others who see your screen. iOS controls refresh timing.</p>
+<h2>Family and friends</h2>
+<p>To share progress, sign in, open Family &amp; friends and create a private invitation for one person. The recipient signs in, copies the invitation and explicitly pastes/accepts it there. Share only with someone you trust. It shares seven-day counts and optional quality coverage, not detailed meals. Accepting is not reciprocal sharing. Stop a connection to block future updates; earlier copies cannot be recalled.</p>
+<p>The Share MealLog button shares the public App Store listing after release. During prerelease testing, friends need a separately approved TestFlight invitation; the listing URL is not an installable beta.</p>
+<h2>Export and deletion</h2>
+<p>Three-dot menu → Export meal data creates JSON or CSV without sign-in credentials or photo files. Protect your export.</p>
+<p>Account → Delete account removes the hosted account and journal/sharing rows, then this device&#x27;s journal, drafts, photos and encryption keys. It requires confirmation. Other devices and exports may retain local copies. The app explains how to remove Apple&#x27;s separate authorization afterward in Apple Account → Sign-In &amp; Security → Sign in with Apple → MealLog → Delete. This does not delete your Apple Account. Guests can erase their device journal under Account. Removing the app or signing out is not an account-deletion request.</p>
+<h2>Camera and product lookup</h2>
+<p>Camera scanning needs a supported physical device and camera permission. To change permission, open iOS Settings → Apps → MealLog → Camera. A missing product can still be logged as text. Barcode results come from Open Food Facts; nutrition is limited by source quality.</p>
+<p>For a problem, send the app/iOS version, what you tapped and any non-sensitive error text to <a href="mailto:appsupport@duck.com">appsupport@duck.com</a>. Do not send passwords or encryption keys.</p></article><footer><a href="privacy.html">Privacy policy</a></footer></main></body></html>
